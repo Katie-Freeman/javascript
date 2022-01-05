@@ -8,18 +8,18 @@ h1 {
 }
 
 li{
+    display: flex;
     list-style-type: none;
     background-color: darkgray;
     text-align: left;
     border: 2px solid rgb(216, 139, 216);
     margin-top: 5px;
     width: 300px;
-   
-    
+    align-items: center;
 }
 
 li input {
-    margin-right: 1em;
+    margin: 0 1em;
 }
 
 #todo, #completed{
@@ -56,9 +56,7 @@ li input {
 }
 
 .remove{
-
-    margin-left: 45%;
-    margin-right: 0;
+margin-left: auto
 }
 
 #completed{
