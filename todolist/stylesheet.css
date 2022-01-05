@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(194, 57%, 82%);
+}
+
+h1 {
+    color:rgb(216, 139, 216);
+    
+}
+
+li{
+    list-style-type: none;
+    background-color: darkgray;
+    text-align: left;
+    border: 2px solid rgb(216, 139, 216);
+    margin-top: 5px;
+    width: 300px;
+   
+    
+}
+
+li input {
+    margin-right: 1em;
+}
+
+#todo, #completed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.input-group{
+    display:flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+#task {
+
+
+}
+
+#addBtn{
+    background-color: rgba(204, 136, 240, 0.721);
+}
+
+#checkbox{
+    display:flex;
+    flex-direction:column;
+}
+
+.remove{
+
+    margin-left: 45%;
+    margin-right: 0;
+}
+
+#completed{
+
+}
