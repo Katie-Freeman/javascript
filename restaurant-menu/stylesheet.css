@@ -1,0 +1,44 @@
+body {
+background-color: darkgrey;
+}
+
+ul {
+display: flex;
+flex-direction: column;
+margin-bottom: 2em;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    border-bottom: solid darksalmon;
+    
+}
+
+li img {
+margin-bottom: 1em;
+}
+
+.btn, .btn-secondary, .dropdown-toggle {
+    background-color: darkturquoise;
+    color: black
+}
+.dropdown-item {
+    background-color: rgba(0, 206, 209, 0.372);
+}
+
+#contentDiv {
+   /* display: flex;
+   flex-direction: column; */
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 206, 209, 0.372);
+
+}
+
+#menu {
+padding: 5em;
+}
