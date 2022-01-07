@@ -1,0 +1,42 @@
+body {
+    background-color: #f4f1de;
+    color: #3d405b;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    }
+    
+    li {
+        background-color: #82c0cc ;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+        padding: 2em;
+        border: 3px solid #75adb8;
+        
+    }
+
+.newsPic {
+    width: 400px;
+
+}
+
+.link {
+    color: #e07a5f;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+#sourceSelect {
+    background-color: #f2cc8f;
+    color: #3d405b;
+}
