@@ -1,0 +1,31 @@
+#superHeroMovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#superHeroMovies div {
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    border: 1px solid #fefefe;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18); 
+    transition: 0.2s ease-in-out;
+}
+
+#superHeroMovies div:hover {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.18); 
+}
+
+.moviePoster {
+    width: 85px;
+    
+
+}
+
+#movieDetails {
+    display: flex;
+    justify-content: space-around;
+}
