@@ -1,0 +1,37 @@
+body {
+    background-color: #EEE9E8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, select, option {
+    background: none;
+    height: 2em;
+    border: 2px solid #BED8D4
+}
+
+button {
+    background-color: #EFB0A1;
+    transition: .2s ease-in-out
+}
+
+button:hover {
+    background-color: #e1a798;
+    cursor: pointer;
+}
+
+#coffeeOrdersDiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+
+#coffeeOrdersDiv div, #coffeeOrderShow {
+    border: 3px solid #BED8D4;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    
+}
+

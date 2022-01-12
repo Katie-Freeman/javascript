@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="stylesheet.css"/>
+    <title>Coffee Orders</title>
+</head>
+<body>
+    
+    <div id="newCoffeeOrder">
+        <form class="orderForm" onsubmit="handleSubmit(event)">
+           <label>Email: </label><input type="email" name="email" required/>  
+           <label>Drink: </label> <select name="type">
+            <option>Coffee - Black</option>
+            <option>Coffee with cream</option>
+            <option>Coffee with cream and sugar</option>
+            <option>Mocha</option>
+            <option>Latte</option>
+            <option>Americano</option>
+            <option>Water</option>
+            <option>Black Tea</option>
+            <option>Green Tea</option>
+        </select>
+           <label>Size: </label> <select name="size">
+               <option>Small</option>
+               <option>Medium</option>
+               <option>Large</option>
+           </select>
+           <label>Price: </label><input type="number" min="1" name="price" required/>
+           <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="coffeeOrdersDiv">
+
+    </div>
+    
+    <label>Find Order by email: </label> <input type="email" id="findOrderByEmail" required/>
+    <button onclick="findOrder(event)" type=button id = "findOrderBtn">Find Order</button>
+
+    <div id="coffeeOrderShow">
+        
+    </div>
+       
+    
+
+
+    <script src = "app.js"></script>
+</body>
+</html>
