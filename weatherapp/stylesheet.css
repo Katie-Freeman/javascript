@@ -11,12 +11,12 @@ input {
 button {
     border-radius: 4px;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #90a58a;
+    background-color: #99b093;
     transition: .2s ease-in-out;
 }
 
 button:hover {
-    background-color: ;
+    background-color: #81947c;
 }
 
 #weatherDiv {
