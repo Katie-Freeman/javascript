@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(252, 238, 218);
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: olive;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#article {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(169, 205, 237);
+    margin: 2em;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+#arcticle a {
+    margin-top: 2em;
+}
+
+
+
